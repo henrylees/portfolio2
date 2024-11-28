@@ -1,0 +1,13 @@
+img {
+    transition: 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(100%);
+    }
+}
